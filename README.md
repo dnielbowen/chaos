@@ -56,16 +56,23 @@ something like this:
 Perhaps, therefore, if you could find and match up a generated 1D fractal curve 
 against real market data (via cross-correlation), by principles of 
 self-similarity in the market perhaps its motion is more constrained than it 
-appears. Do you need to have the "right" model? Apparently not, they all yield 
-basically the same result. So perhaps, just like how you can "see where you're 
-going" when zooming into a fractal, you could predict e.g. the next few minutes 
-of market data.
+appears. But there are an infinite number of curves you could generate, isn't 
+it a super long shot that you'd find one that matches? To that I say, why do so 
+many sections of the Mandelbrot look the same? As you zoom in and pan around, 
+it's different, but feels familiar. Maybe there are a smaller number of 
+"classes" of curves with variations. And, do you need to have the "right" 
+model? Apparently not, they all yield basically the same result. You get 
+Mandelbrot-like fractals without trying. You get logistic map-like sets without 
+trying. So perhaps, just like how you can "see where you're going" when zooming 
+into a fractal, you could predict e.g. the next few minutes of market data once 
+you've matched one of these classes of fractal curves that you've found.
 
-So? How did it go? I gave up trying to make the curves look like market data. 
-The ones below are too pointy --- real market data does not look so "Alpine 
-mountain-like" as these curves. Given that I highly doubt this would work in 
-the first place I didn't think it was worth spending much time on. But, at 
-least it made for kind of a cool picture.
+So? How did it go? I gave up trying to make the curves look like market data, 
+to say nothing of going further with cross-correlation. The ones below are too 
+pointy --- real market data does not look so "Alpine mountain-like" as these 
+curves. Given that I highly doubt this would work in the first place I didn't 
+think it was worth spending much time on. But, at least it made for kind of a 
+cool picture.
 
 Worthy of mention: Mandelbrot himself has spent quite a bit of his energy, for 
 decades, looking at fractal behavior in markets (for example, 
