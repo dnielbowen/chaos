@@ -11,7 +11,7 @@ done below) and even change the map equation to something more complicated
 images seem to look basically like this. This is the self-similarity and 
 scale-invariance of chaos coming out --- just like how many kinds of fractals 
 all seem to look Mandelbrot-like, even when similarly more-complicated 
-equations are used beyond $z_{n+1}=z_{n}^2+c$. For logistc maps (probably 
+equations are used beyond $z_{n+1}=z_{n}^2+c$. For logistic maps (probably 
 "traditional" fractals, too), better mathematicians seem to explain this as 
 being a family of "quadratic maps" that all yield the same properties, just 
 scaled differently.
@@ -78,6 +78,18 @@ logistic map, subtracted the average (if I recall), calculated the cumulative
 sum, and tried various low-pass filters. The result is a bunch of random walks 
 created with fractals that always starts and ends at 0. Granularity of the 
 curve depends on the length of the logistic sequence.
+
+One more interesting point about these curves: note how they all start out 
+together for a very short time, like a tiny lightning bolt on the left. This is 
+because I varied a parameter in the logistic map only very slightly to generate 
+the different curves. If I varied it even more slightly, they would track 
+together for longer (but not that long, because it really seems to want to go 
+chaotic). This sensitivity to initial conditions is another classic character 
+of chaos. But, this is similar to how you can "see where you're going" when you 
+zoom into a Mandelbrot fractal, even though you can't predict what comes after 
+"the next horizon" and you definitely can't begin to predict even further. 
+Below is a visualization of this fact (it only converges back to zero each time 
+because of how I averaged the sequence).
 
 Worthy of mention: Mandelbrot himself has spent quite a bit of his energy, for 
 decades, looking at fractal behavior in markets (for example, 
