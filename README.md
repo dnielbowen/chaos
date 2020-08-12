@@ -37,7 +37,11 @@ and see another Mandelbrot-looking shape (and on and on, recursively).
 
 ![Output 3](https://raw.githubusercontent.com/eldewen/chaos/master/out/logisticSubset2.jpg)
 
-Another detailed section.
+I wonder if the noisiness in the above image is due to using `numpy`'s default 
+floating point (albeit 64-bit) math, rather than an arbitrary-precision 
+library, even though we're not *that* zoomed-in yet.
+
+Another detailed section:
 
 ![Output 4](https://raw.githubusercontent.com/eldewen/chaos/master/out/logisticSubset.jpg)
 
