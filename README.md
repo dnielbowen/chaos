@@ -16,12 +16,60 @@ equations are used beyond $z_{n+1}=z_{n}^2+c$. For logistc maps (probably
 being a family of "quadratic maps" that all yield the same properties, just 
 scaled differently.
 
-Some outputs:
+## A few outputs
+
+A fully zoomed-out view of the interesting parts. The ["period 
+doubling"](https://en.wikipedia.org/wiki/Period-doubling_bifurcation) whose 
+frequency increases at a ratio of the [Feigenbaum 
+constant](https://en.wikipedia.org/wiki/Feigenbaum_constants) can be seen in 
+the branch from left-to-right.
 
 ![Output 1](https://raw.githubusercontent.com/eldewen/chaos/master/out/ax1-x.jpg)
 
+Zooming in on one of those gaps (note the X axis bounds):
+
 ![Output 2](https://raw.githubusercontent.com/eldewen/chaos/master/out/logisticSubset3.jpg)
+
+Zooming further into the above image, we start to repeat patterns. A miniature 
+version of the whole "zoomed-out" scene was already visible in the above zoomed 
+image, but scaled differently. ...like when you zoom in a Mandelbrot fractal 
+and see another Mandelbrot-looking shape (and on and on, recursively).
 
 ![Output 3](https://raw.githubusercontent.com/eldewen/chaos/master/out/logisticSubset2.jpg)
 
+Another detailed section.
+
 ![Output 4](https://raw.githubusercontent.com/eldewen/chaos/master/out/logisticSubset.jpg)
+
+## Market prediction idea
+
+Below was a result from playing with logistic maps in trying to yield curves 
+that looked something like market data. An almost certainly wrong and very 
+qualitative theory for building a quantitative financial market model idea went 
+something like this:
+
+- Markets are chaotic
+- Fractals are self-similar
+- When zooming in a fractal, you can see in the "distance" what's coming next 
+  as you zoom
+
+Perhaps, therefore, if you could find and match up a generated 1D fractal curve 
+against real market data (via cross-correlation), by principles of 
+self-similarity in the market perhaps its motion is more constrained than it 
+appears. Do you need to have the "right" model? Apparently not, they all yield 
+basically the same result. So perhaps, just like how you can "see where you're 
+going" when zooming into a fractal, you could predict e.g. the next few minutes 
+of market data.
+
+So? How did it go? I gave up trying to make the curves look like market data. 
+The ones below are too pointy --- real market data does not look so "Alpine 
+mountain-like" as these curves. Given that I highly doubt this would work in 
+the first place I didn't think it was worth spending much time on. But, at 
+least it made for kind of a cool picture.
+
+Worthy of mention: Mandelbrot himself has spent quite a bit of his energy, for 
+decades, looking at fractal behavior in markets (for example, 
+[here](https://www.amazon.com/Misbehavior-Markets-Fractal-Financial-Turbulence/dp/0465043577), 
+in addition to a bunch of academic papers).
+
+![Market sim data](https://raw.githubusercontent.com/eldewen/chaos/master/out/manyPaths.jpg)
