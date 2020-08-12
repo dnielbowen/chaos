@@ -54,12 +54,13 @@ something like this:
   as you zoom
 
 Perhaps, therefore, if you could find and match up a generated 1D fractal curve 
-against real market data (via cross-correlation), by principles of 
-self-similarity in the market perhaps its motion is more constrained than it 
-appears. But there are an infinite number of curves you could generate, isn't 
-it a super long shot that you'd find one that matches? To that I say, why do so 
-many sections of the Mandelbrot look the same? As you zoom in and pan around, 
-it's different, but feels familiar. Maybe there are a smaller number of 
+against real market data (via cross-correlation), by principle of 
+self-similarity in fractals, perhaps the market's motion too is more 
+constrained than it appears. But, there are an infinite number of curves you 
+could generate to match up against market data --- isn't it a super long shot 
+that you'd find one that matches? To that I say, why do so many sections of the 
+Mandelbrot look the same? As you zoom in and pan around, even when it's 
+different, it often feels familiar. Maybe there are a smaller number of 
 "classes" of curves with variations. And, do you need to have the "right" 
 model? Apparently not, they all yield basically the same result. You get 
 Mandelbrot-like fractals without trying. You get logistic map-like sets without 
@@ -72,7 +73,11 @@ to say nothing of going further with cross-correlation. The ones below are too
 pointy --- real market data does not look so "Alpine mountain-like" as these 
 curves. Given that I highly doubt this would work in the first place I didn't 
 think it was worth spending much time on. But, at least it made for kind of a 
-cool picture.
+cool picture --- to create the curves below I generated a sequence using the 
+logistic map, subtracted the average (if I recall), calculated the cumulative 
+sum, and tried various low-pass filters. The result is a bunch of random walks 
+created with fractals that always starts and ends at 0. Granularity of the 
+curve depends on the length of the logistic sequence.
 
 Worthy of mention: Mandelbrot himself has spent quite a bit of his energy, for 
 decades, looking at fractal behavior in markets (for example, 
