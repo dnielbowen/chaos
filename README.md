@@ -12,9 +12,9 @@ images seem to look basically like this. This is the self-similarity and
 scale-invariance of chaos coming out --- just like how many kinds of fractals 
 all seem to look Mandelbrot-like, even when similarly more-complicated 
 equations are used beyond $z_{n+1}=z_{n}^2+c$. For logistic maps (probably 
-"traditional" fractals, too), better mathematicians seem to explain this as 
-being a family of "quadratic maps" that all yield the same properties, just 
-scaled differently.
+"traditional" fractals, too), the mathematicians seem to explain this as being 
+a family of "quadratic maps" that all yield the same properties, just scaled 
+differently.
 
 ## A few outputs
 
