@@ -24,18 +24,18 @@ frequency increases at a ratio of the [Feigenbaum
 constant](https://en.wikipedia.org/wiki/Feigenbaum_constants) can be seen in 
 the branch from left-to-right.
 
-![Output 1](https://raw.githubusercontent.com/eldewen/chaos/master/out/ax1-x.jpg)
+![Output 1](./out/ax1-x.jpg)
 
 Zooming in on one of those gaps (note the X axis bounds):
 
-![Output 2](https://raw.githubusercontent.com/eldewen/chaos/master/out/logisticSubset3.jpg)
+![Output 2](./out/logisticSubset3.jpg)
 
 Zooming further into the above image, we start to repeat patterns. A miniature 
 version of the whole "zoomed-out" scene was already visible in the above zoomed 
 image, but scaled differently. ...like when you zoom in a Mandelbrot fractal 
 and see another Mandelbrot-looking shape (and on and on, recursively).
 
-![Output 3](https://raw.githubusercontent.com/eldewen/chaos/master/out/logisticSubset2.jpg)
+![Output 3](./out/logisticSubset2.jpg)
 
 I wonder if the noisiness in the above image is due to using `numpy`'s default 
 floating point (albeit 64-bit) math, rather than an arbitrary-precision 
@@ -43,7 +43,7 @@ library, even though we're not *that* zoomed-in yet.
 
 Another detailed section:
 
-![Output 4](https://raw.githubusercontent.com/eldewen/chaos/master/out/logisticSubset.jpg)
+![Output 4](./out/logisticSubset.jpg)
 
 ## Market prediction idea
 
@@ -100,4 +100,4 @@ decades, looking at fractal behavior in markets (for example,
 [here](https://www.amazon.com/Misbehavior-Markets-Fractal-Financial-Turbulence/dp/0465043577), 
 in addition to a bunch of academic papers).
 
-![Market sim data](https://raw.githubusercontent.com/eldewen/chaos/master/out/manyPaths.jpg)
+![Market sim data](./out/manyPaths.jpg)
